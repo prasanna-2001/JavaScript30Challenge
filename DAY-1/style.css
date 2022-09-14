@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(Assets/bgconcert.png);
+    background-repeat: no-repeat;
+    min-width: 100vw;
+    background-size: cover;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+
+}
+h1{
+    color: white;
+}
+.keys{
+    display: flex;
+    flex-wrap:wrap;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+kbd {
+    display: block;
+    top: 20%;
+    position: relative;
+    font-size: 25px;
+}
+.key{
+    border:1px solid black;
+    border-radius: 15px;
+    width: 110px;
+    height: 85px;
+    margin: 1.5rem;
+    padding: 1rem, 0.5rem;
+    font-size: 1.5rem;
+    transition: all 0.1sec;
+    text-align:center;
+    color: white;
+    background-color: rgba(0,0,0,0.4);
+    text-shadow: 0 0 5px;
+    align-items: center;
+}
+.playing{
+    transform: scale(1.2);
+    border-color: #cab673;
+    box-shadow: 0 0 25px #a79148;
+}
+.sound {
+    display: block;
+    position: relative;
+    top: 30%;
+}
